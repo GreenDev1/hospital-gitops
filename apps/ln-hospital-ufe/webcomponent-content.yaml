@@ -14,5 +14,5 @@ spec:
       value: hospital-01
   displayRules:
     - allOf:
-      - context-name: main-content
-      - path: "^(\\.?/)?ln-hospital-spaces(/.*)?$"
+        - context-name: main-content
+        - path: "^(\\.?/)?ln-hospital-spaces(/.*)?$"
