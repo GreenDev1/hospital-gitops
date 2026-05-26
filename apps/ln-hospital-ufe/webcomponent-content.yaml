@@ -4,8 +4,11 @@ metadata:
   name: ln-hospital-ufe-content
 spec:
   microFrontend: ln-hospital-ufe
-  element: ln-hospital-spaces-list
+  element: ln-hospital-spaces-app
+  attributes:
+    - name: base-path
+      value: /ln-hospital-spaces
   displayRules:
     - allOf:
       - context-name: main-content
-      - path: "^(\\.?/)?ln-hospital-spaces-list(/.*)?$"
+      - path: "^(\\.?/)?ln-hospital-spaces(/.*)?$"
