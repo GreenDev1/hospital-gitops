@@ -4,6 +4,7 @@ kind: Kustomization
 resources:
   - https://github.com/polyfea/manifests//gitops/fluxcd
 
+
 configMapGenerator:
 - name: polyfea-shell-cfg
   namespace: polyfea
