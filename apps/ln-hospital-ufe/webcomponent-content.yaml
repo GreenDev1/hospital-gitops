@@ -8,4 +8,4 @@ spec:
   displayRules:
     - allOf:
       - context-name: main-content
-      - path: "^(\\.?/)?ln-hospital(/.*)?$"
+      - path: "^(\\.?/)?ln-hospital-spaces-list(/.*)?$"
