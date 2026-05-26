@@ -9,3 +9,5 @@ labels:
 
 resources:
 - ../../../apps/ln-hospital-ufe
+components:
+- ../../../components/version-developers
